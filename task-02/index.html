@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+<div class="main">
+    <div id="color-sliders">
+      <div>
+        <label for="blue-slider">Size:</label>
+        <input type="range" id="slider" min="1" max="9" value=2 onchange="update(this.value);">
+      </div>
+      <br>
+      <div>
+        <label id="redcolor" for="red-slider">Red:</label>
+         <input type="range" id="red-slider" min="0" max="255" value=0 onchange="updateColor(this.value);">
+      </div>
+      <div>
+        <label id="greencolor" for="green-slider">Green:</label>
+        <input type="range" id="green-slider" min="0" max="255" value=0 onchange="updateColor(this.value);">
+      </div>
+      <div>
+        <label id ="bluecolor" for="blue-slider">Blue:</label>
+        <input type="range" id="blue-slider" min="0" max="255" value=0 onchange="updateColor(this.value);">
+      </div>
+    </div>
+    <div id="wrapper">
+      <div>
+        <span id="work">AUM </span><span id="life">NAMAH</span>
+      </div>
+      <div id="balance">SHIVAYA!</div>
+    </div>
+</div>
+
+</section>
+<script  src="script.js"></script>
+</body>
+</html>
