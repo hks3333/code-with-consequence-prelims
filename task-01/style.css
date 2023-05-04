@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Merienda:wght@500&display=swap');
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.whole {
+    height: 100vh;
+    width: 100%;
+    background-color: #cdc0c0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+.but{
+    height: 70px;
+    width: 70px;
+}
+
+
+.card {
+    background: #9b9797;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    display: flex;
+    width: 60%;
+    height: 70%;
+    border: #000000 9px solid;
+    flex-direction: row;
+    border-radius: 30px;
+    transform: rotate(-4deg);
+}
+
+.card .title {
+    font-family: 'Arvo', serif;
+    
+    text-align: right;
+    color: rgb(39 39 42);
+    font-size: 50px;
+}
+
+.card .desc {
+    font-family: 'Merienda', cursive;
+    padding: 0.5rem 1rem;
+    font-size: 12px;
+    color: #666666;
+}
+
+.card .actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.card svg {
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+}
+
+
+
+.card-text {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.title-total {
+    padding: 14.5em 1.5em 1.5em 1.5em;
+}
+
+path {
+    fill: white;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-position: bottom center;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+}
+
+.profile-image img {
+    height: 100%;
+    width: 100%;
+    scale: 90%;
+    object-fit: cover;
+    padding-right: 30px;
+}
+
+#name {
+    font-family: 'Arvo', serif;
+    font-size: 4.5em;
+    font-weight: bold;
+    color: rgb(110, 100, 110);
+    margin: 0;
+    background-color: rgb(150, 141, 141);
+    
+}
+
+
+
